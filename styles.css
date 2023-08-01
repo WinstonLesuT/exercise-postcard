@@ -36,3 +36,14 @@ input {
 	border: none;
 	border-bottom: 1px grey solid;
 }
+.body-left p {
+	font-size: 15px;
+	font-style: normal;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gray;
+	padding: 5px;
+}
