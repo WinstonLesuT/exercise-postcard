@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background-color: black;
 }
 * {
 	border: 1px dashed red;
@@ -11,7 +11,6 @@ body {
 	height: 300px;
 	margin: auto;
 }
-
 .postcard-header {
 	display: flex;
 }
@@ -20,6 +19,20 @@ body {
 	height: 50px;
 }
 .postcard-header h1 {
-	width: auto;
+	width: 200px;
 	margin: auto;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
 }
